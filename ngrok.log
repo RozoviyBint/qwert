@@ -1,0 +1,13 @@
+t=2023-03-15T23:12:10+0300 lvl=info msg="no configuration paths supplied"
+t=2023-03-15T23:12:10+0300 lvl=info msg="using configuration at default config path" path=/home/diocletianalfachenko/.config/ngrok/ngrok.yml
+t=2023-03-15T23:12:10+0300 lvl=info msg="open config file" path=/home/diocletianalfachenko/.config/ngrok/ngrok.yml err=nil
+t=2023-03-15T23:12:10+0300 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2023-03-15T23:12:10+0300 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041 allow_hosts=[]
+t=2023-03-15T23:12:11+0300 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-03-15T23:12:11+0300 lvl=info msg="client session established" obj=csess id=35b2dda4af3b
+t=2023-03-15T23:12:11+0300 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://adc4-89-107-139-170.eu.ngrok.io
+t=2023-03-15T23:12:11+0300 lvl=info msg="update available" obj=updater
+t=2023-03-15T23:12:49+0300 lvl=warn msg="failed to open private leg" id=d95390ebda2e privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-03-15T23:12:50+0300 lvl=warn msg="failed to open private leg" id=e2f84ae9efaa privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-03-15T23:23:55+0300 lvl=warn msg="failed to open private leg" id=a9bcd54c214b privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-03-15T23:23:55+0300 lvl=warn msg="failed to open private leg" id=f6cae9936273 privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
